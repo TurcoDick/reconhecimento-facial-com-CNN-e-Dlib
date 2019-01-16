@@ -18,6 +18,7 @@ Também foram utilizadas algumas fotos do Neymar, Barack Obama e do Trump que us
   Notebook 8 GB RAM;<br/>
   processador: i7, 4ª Geração; <br/>
   placa de video: geforce M920; <br/>
+  SSD
   sistema operacional: Ubuntu 18.04 <br/>
   
   
