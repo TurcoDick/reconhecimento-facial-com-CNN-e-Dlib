@@ -1,6 +1,5 @@
 import os
 import glob
-import _pickle as cPickle
 import dlib
 import cv2
 import numpy as np
@@ -14,7 +13,7 @@ limiar = 0.5
 
 
 # a biblioteca glob serve para percorrer uma pasta
-for arquivo in glob.glob(os.path.join("fotos", "*.jpg")):
+for arquivo in glob.glob(os.path.join("fotos/teste", "*.jpg")):
     imagem = cv2.imread(arquivo)
     facesDetectadas = detectorFace(imagem, 3)
     for face in facesDetectadas:

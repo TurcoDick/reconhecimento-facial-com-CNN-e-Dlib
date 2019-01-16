@@ -33,10 +33,10 @@ for arquivo in glob.glob(os.path.join("fotos/treinamento", "*.jpg")):
         descritorFacial = reconhecimentoFacial.compute_face_descriptor(imagem, pontosFaciais)
 
         # mostra o nome do arquivo
-        #print(format(arquivo))
+        print(format(arquivo))
 
         # mostra a quantidade de caracteristicas concideradas principais pela CNN
-        #print(len(descritorFacial))
+        print(len(descritorFacial))
 
         # mostra a matriz de caracteristicas
         listaDescritorFacial = [df for df in descritorFacial]
